@@ -11,7 +11,6 @@ export default (opts)=> {
     
     const accepts = opts.accepts || ['html', 'text', 'json'];
     const env = opts.env || process.env.NODE_ENV || 'development';
-    const tpl = opts.template || TPL;
 
     return async function error(ctx, next){
         try {

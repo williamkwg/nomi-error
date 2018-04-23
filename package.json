@@ -1,0 +1,15 @@
+{
+  "name": "nomi-error",
+  "version": "1.0.0",
+  "description": "error handler  middleware for nomi.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.corp.qunar.com:fe/nomi-error.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

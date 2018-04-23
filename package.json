@@ -11,5 +11,11 @@
     "url": "git@gitlab.corp.qunar.com:fe/nomi-error.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "consolidate": "^0.15.1",
+    "ejs": "^2.5.9",
+    "koa": "^2.5.0",
+    "path": "^0.12.7"
+  }
 }

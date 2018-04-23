@@ -1,0 +1,25 @@
+body,
+h1,
+h2,
+div {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body {
+    padding: 100px 200px;
+    font: 13px "Helvetica Neue", "Lucida Grande", "Arial";
+    background: #ECE9E9;
+    color: #555;
+}
+h1,
+h2 {
+    font-size: 25px;
+    color: #343434;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    margin-top: 10px;
+}

@@ -1,17 +1,24 @@
-#### ***文中链接各位根据自己项目对应修改***
---------------------------------------------------------------------------------
-#### **项目管理**：
-#### *sp*:(http://sp.corp.qunar.com/default.aspx)<br />
+# nomi-error
 
-#### *jira*:(http://task.corp.qunar.com/browse/)<br />
---------------------------------------------------------------------------------
-#### **发布相关**:
-#### *devbds*:(http://devbds.corp.qunar.com/jenkins/)<br />
-#### *bds*:(http://bds.corp.qunar.com/jenkins/)<br />
---------------------------------------------------------------------------------
-#### **质量管理**:
-#### *bugfree*:(http://svn.corp.qunar.com/bugfree)<br />
-#### *case*:(http://bugfree.corp.qunar.com/bugfree/index.php/case)<br />
---------------------------------------------------------------------------------
-#### **项目信息**:
-#### *wiki*:(http://wiki.corp.qunar.com/)<br />
+the error middleware for nomi framework.
+
+## Installation
+
+``` bash
+$ npm install nomi-error --save
+```
+
+Node.js >= 8.0.0  required.
+
+## Usage
+
+``` javascript
+
+const error = require('nomi-error');
+const Koa = require('koa');
+const app = new Koa();
+const options = {
+  accepts: ['html', 'text', 'json']
+}
+app.use(error('html', 'text', 'json'));
+```

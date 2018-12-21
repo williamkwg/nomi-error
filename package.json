@@ -1,16 +1,23 @@
 {
   "name": "nomi-error",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "error handler  middleware for nomi.js",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.corp.qunar.com:fe/nomi-error.git"
+    "url": "https://github.com/williamkwg/nomi-error.git",
+    "innerurl": "git@gitlab.corp.qunar.com:fe/nomi-error.git"
   },
-  "author": "",
+  "keywords": [
+    "nomi",
+    "nomi-error",
+    "error",
+    "nomi-middleware"        
+  ],
+  "author": "xiaoli.liu",
   "license": "ISC",
   "dependencies": {
     "consolidate": "^0.15.1",

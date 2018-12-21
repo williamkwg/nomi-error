@@ -1,6 +1,6 @@
 {
   "name": "nomi-error",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "error handler  middleware for nomi.js",
   "main": "./lib/index.js",
   "scripts": {
@@ -8,8 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/williamkwg/nomi-error.git",
-    "innerurl": "git@gitlab.corp.qunar.com:fe/nomi-error.git"
+    "url": "https://github.com/williamkwg/nomi-error.git"
   },
   "keywords": [
     "nomi",
